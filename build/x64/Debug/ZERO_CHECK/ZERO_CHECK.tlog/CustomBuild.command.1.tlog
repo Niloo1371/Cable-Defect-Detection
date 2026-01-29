@@ -1,0 +1,10 @@
+^C:\USERS\NILOOFAE\DOWNLOADS\CABLEDEFECTDETECTION\BUILD\CMAKEFILES\9A01BFD6196DC8005E18546039D6FE7A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/niloofae/Downloads/CableDefectDetection -BC:/Users/niloofae/Downloads/CableDefectDetection/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/niloofae/Downloads/CableDefectDetection/build/CableDefectDetection.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

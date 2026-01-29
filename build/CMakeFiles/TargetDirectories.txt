@@ -1,0 +1,3 @@
+C:/Users/niloofae/Downloads/CableDefectDetection/build/CMakeFiles/CableDefectDetection.dir
+C:/Users/niloofae/Downloads/CableDefectDetection/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/niloofae/Downloads/CableDefectDetection/build/CMakeFiles/ZERO_CHECK.dir
