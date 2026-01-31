@@ -12,17 +12,19 @@ Defect detection
 Defect classification (e.g. pin-holes, cuts, scratches)
 
 # Project Structure
+```
 CableDefectDetection/
 ├── src/
 │   └── Main.cpp                # Main application source code
 ├── CMakeLists.txt              # Build configuration
-├── README.txt                  # Original exercise description
+├── README.md                   # Project documentation
 ├── *.bmp                       # Input test images
 ├── Exercise1_output/           # Diameter estimation results
 ├── Exercise2_output/           # Defect detection results
 ├── Exercise3_output/           # Defect classification results
 ├── Challenge_answers.pdf       # Written answers to theoretical questions
 └── build/                      # Generated build files (Visual Studio / CMake)
+```
 
 # Input Images
 
@@ -120,6 +122,7 @@ CableDefectDetection.exe
 
 
 The program processes the provided .bmp images and writes the results to the corresponding Exercise*_output folders.
+
 
 
 
