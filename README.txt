@@ -1,6 +1,6 @@
-Cable Defect Detection
+# Cable Defect Detection
 
-This project implements a computer vision–based inspection pipeline for detecting and classifying defects in cable images.
+This project implements a computer vision inspection pipeline for detecting and classifying defects in cables.
 It was developed as a technical exercise to demonstrate image processing, feature extraction, and rule-based defect classification using C++.
 
 The system processes images of cables and performs:
@@ -11,7 +11,7 @@ Defect detection
 
 Defect classification (e.g. pin-holes, cuts, scratches)
 
-Project Structure
+# Project Structure
 CableDefectDetection/
 ├── src/
 │   └── Main.cpp                # Main application source code
@@ -24,7 +24,7 @@ CableDefectDetection/
 ├── Challenge_answers.pdf       # Written answers to theoretical questions
 └── build/                      # Generated build files (Visual Studio / CMake)
 
-Input Images
+# Input Images
 
 The project operates on grayscale or color images of cables, for example:
 
@@ -38,7 +38,7 @@ Pin-Hole_and_cut.bmp
 
 Each image may contain one or multiple defect types.
 
-Processing Pipeline
+# Processing Pipeline
 1. Cable Diameter Estimation (Exercise 1)
 
 The first stage extracts the cable body from the background and estimates its diameter by analyzing the cable’s cross-section.
@@ -97,7 +97,7 @@ classifyoutput1_Scratches.jpg
 
 Each output image shows the detected defect along with its predicted label.
 
-Build & Run Instructions
+# Build & Run Instructions
 Requirements
 
 C++ compiler (Visual Studio / GCC / Clang)
@@ -120,3 +120,4 @@ CableDefectDetection.exe
 
 
 The program processes the provided .bmp images and writes the results to the corresponding Exercise*_output folders.
+
