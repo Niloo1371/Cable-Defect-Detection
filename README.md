@@ -41,7 +41,7 @@ Pin-Hole_and_cut.bmp
 Each image may contain one or multiple defect types.
 
 # Processing Pipeline
-1. Cable Diameter Estimation (Exercise 1)
+## 1. Cable Diameter Estimation (Exercise 1)
 
 The first stage extracts the cable body from the background and estimates its diameter by analyzing the cable’s cross-section.
 
@@ -57,7 +57,7 @@ Detected cable edges
 
 Measured diameter overlayed on the image
 
-2. Defect Detection (Exercise 2)
+## 2. Defect Detection (Exercise 2)
 
 In this stage, the algorithm identifies anomalies on the cable surface by comparing local intensity and texture variations against the nominal cable appearance.
 
@@ -69,7 +69,7 @@ defectoutput1_Scratches.jpg
 
 defectoutput1_Pin-Hole_and_cut.jpg
 
-3. Defect Classification (Exercise 3)
+## 3. Defect Classification (Exercise 3)
 
 Detected defects are classified into categories such as:
 
@@ -122,6 +122,7 @@ CableDefectDetection.exe
 
 
 The program processes the provided .bmp images and writes the results to the corresponding Exercise*_output folders.
+
 
 
 
