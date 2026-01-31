@@ -1,4 +1,4 @@
-# Cable Defect Detection
+**Cable Defect Detection**
 
 This project implements a computer vision inspection pipeline for detecting and classifying defects in cables.
 It was developed as a technical exercise to demonstrate image processing, feature extraction, and rule-based defect classification using C++.
@@ -120,4 +120,5 @@ CableDefectDetection.exe
 
 
 The program processes the provided .bmp images and writes the results to the corresponding Exercise*_output folders.
+
 
